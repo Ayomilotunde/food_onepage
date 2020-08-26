@@ -39,19 +39,21 @@ class _SplashScreen extends State<SplashScreen> {
             ),
           ),
         ),
+        Image.asset('image/logo.webp'),
         Shimmer.fromColors(
           baseColor: Colors.red,
           highlightColor: Colors.yellow,
           child: Container(
-            margin: EdgeInsets.only(top: 220),
+            margin: EdgeInsets.only(top: 600),
             child: Column(
               children: <Widget>[
                 Text(
-                  'MXFOODS',
+                  'MXFOODs',
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    fontSize: 80.0,
+                    fontSize: 40.0,
                     fontWeight: FontWeight.bold,
+                    fontFamily: 'pacifico',
                   ),
                 ),
               ],
