@@ -48,7 +48,7 @@ class _SplashScreen extends State<SplashScreen> {
             child: Column(
               children: <Widget>[
                 Text(
-                  'MXFOODs',
+                  'FOODs',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 40.0,
