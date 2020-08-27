@@ -69,8 +69,7 @@ class _FoodState extends State<Food> {
                   )
                 ]),
           )),
-      body: RefreshIndicator(
-        onRefresh: _get,
+      body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Container(
